@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.App {
+  text-align: center;
+}
+
+body{
+  background: azure;
+  color: black;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  gap: 30px;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Loop h1 { font-size: 2.4rem; font-style: oblique; font-weight: bold;   margin-left: 20px;  }
+.Loop h2 { font-weight: 400 ;  }
+.Loop{
+  text-align: start;
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.Functionlooping h1 { font-size: 2.4rem; font-style: oblique;  font-weight: bold;   margin-left: 20px;  }
+.Functionlooping h2 { font-weight: 400 ;  }
+.Functionlooping{
+  text-align: start;
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+}
+.display{
+  display: flex;
+}
+.checkbox {
+  display: flex;
+}
+
+.mon{
+  margin-left: 30px;
+  margin-top: 10px;
+}
